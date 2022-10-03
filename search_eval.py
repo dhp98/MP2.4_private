@@ -9,7 +9,7 @@ def load_ranker(cfg_file):
     """
     Use this function to return the Ranker object to evaluate, 
     The parameter to this function, cfg_file, is the path to a
-    configuration file used to load the index.
+    configuration file used to load the index..
     """
     return metapy.index.OkapiBM25(b=0.7, k1=2.2)
 
